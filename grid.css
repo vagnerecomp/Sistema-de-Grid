@@ -12,6 +12,11 @@ body{
     color: #FFF;
     border-radius: 8px;
 }
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 .col-1{
     width: 8.33%;
 }
